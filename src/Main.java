@@ -11,5 +11,13 @@ public class Main {
          5. Dodaj kolejną instancję Square ale z typem Float i przekaż do konstruktora 5.7f,
             ponownie w konsoli pokaż wynik wywołania getSurfaceArea()
          */
+
+        Square<Integer> integerSquare = new Square<>(10);
+        System.out.println(integerSquare.getSurfaceArea());
+
+        Square<Float> floatSquare = new Square<>(5.7f);
+        System.out.println(floatSquare.getSurfaceArea());
     }
+
+
 }
